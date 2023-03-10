@@ -23,9 +23,9 @@ Also make sure the user account you use to login has Exchange Online license act
 
 
 # Screenshot
-When you run the app, and successfully login with a mailbox enabled user you get an output like below:
+When you run the app, and successfully login with a mailbox enabled user, you get an output like below:
 
-- With meetings on the calendar
+- When there are events in the calendar
 ![image](https://user-images.githubusercontent.com/84803086/224236463-6dcec986-cdea-4055-a2f9-0a2bc115ecd1.png)
 
 
