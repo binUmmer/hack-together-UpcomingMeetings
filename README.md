@@ -36,7 +36,7 @@ When you run the app, and successfully login with a mailbox enabled user, you ge
 - When there are no events for the remaining of the day
 ![image](https://user-images.githubusercontent.com/84803086/224237449-71b8ea06-5229-4d5d-97c5-3b2f748d52a6.png)
 
-# Futher learning ideas
+# Further learning ideas
 - Present more info, like organizer, location, if its an online meeting
 - Add actions, respond to organizer, email all attendees etc.
 - Move presentation to web page using an MVC project
