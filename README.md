@@ -19,9 +19,13 @@ https://login.microsoftonline.com/common/adminconsent?client_id=e19857ae-15ed-42
 
 Note: When admin consent to the app using this url, after that the web page may show an HTTP 404 response, that can be ignored.
 
-Also make sure the user account you use to login has Exchange Online license activated
+Also make sure the user account you use to login has Exchange Online license activated  
+  
+  
 
-
+In case you are using a highly restrictive environment, you can ask your Admin to grant the consent only for your account by following this Microsoft [Document](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/grant-consent-single-user) (the permissions needed are User.Read and Calendars.Read
+  
+  
 # Screenshot
 When you run the app, and successfully login with a mailbox enabled user, you get an output like below:
 
