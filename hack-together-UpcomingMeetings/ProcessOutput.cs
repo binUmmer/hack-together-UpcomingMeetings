@@ -22,7 +22,15 @@ public class ProcessOutput
             {
                 Console.WriteLine(Environment.NewLine);
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"Subject: {item.Subject}");
+                Console.Write($"Subject: {item.Subject}");
+                Console.ForegroundColor = defaultColor;
+
+                //Checking and alerting if the meeting is already in progress
+                var inProgress = string.Empty;
+                if (item.Start.ToDateTime().ToLocalTime() < DateTime.Now && item.End.ToDateTime().ToLocalTime() > DateTime.Now)
+                    inProgress = " - In Progress";
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine(inProgress);
                 Console.ForegroundColor = defaultColor;
 
                 Console.WriteLine($"Start: {item.Start.ToDateTime().ToLocalTime().ToString("d-MMM-yyyy hh:mm tt")}");
